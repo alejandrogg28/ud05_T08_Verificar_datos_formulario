@@ -79,7 +79,7 @@ $sexo= (isset($_REQUEST['sexos']))
     ? htmlspecialchars(trim(strip_tags($_REQUEST['sexos'])), ENT_QUOTES, "ISO-8859-1")
     : "";
 if ($sexo == "")
-    print "<p>Non se utilizou o control sexo. É obirgatorio.</p>";
+    print "<p>Non se utilizou o control sexo. É obrigatorio.</p>";
 else
     print "<p>O valor recibido do control sexo é: $sexo</p>";
 
